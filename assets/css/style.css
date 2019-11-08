@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp2506249.png");
+}
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 3.75em;
+    text-align: center;
+    color: gold;
+    margin-top: 25px;
+}
+
+h2 {
+    font-family: 'Titan One', cursive;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow:
+    -3px -3px 0 gold,
+    3px -3px 0 gold,
+    -3px 3px 0 gold,
+    3px 3px 0 gold;
+    text-align: center;
+    transform: rotate(-10deg);
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 2.5em;
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+}
+
+h4 {
+    font-size: 2em;
+    color: #002d3c;
+    padding-top: 100px;
+}
+
+p {
+    
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: -55px;
+} 
+
+#guessedLetters {
+    color: blue;
+    margin-top: 75px;
+}
+
+#press {
+    color: red;
+    margin-top: 75px;
+    margin-bottom: -40px;
+}
+
+#answerWord {
+    letter-spacing: .25em;
+    margin-top: 0;
+    color: gold;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.middle {
+    flex: 1;
+    order: 2;
+    padding: 20px;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+}
+
+#giphy-embed {
+    width: 100%;
+    height: 100%;
+}
+
+.side {
+    width: 20%;
+    padding: 20px;
+}
+.left {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.right{
+    order: 3;
+    overflow-wrap: break-word;
+}
